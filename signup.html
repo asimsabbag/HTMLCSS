@@ -1,0 +1,70 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign up page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="cssforsignup.css" />
+</head>
+<body>
+    <div class="content">
+        <h2>
+            Sign Up
+        </h2>
+        <form>
+        <table>
+            <tr>
+                <td><label>Name : </label></td> <td><input type="text" placeholder="Fullname" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label>Address : </label></td> <td><input type="text" placeholder="address" name="addrs" required></td>
+            </tr>
+            <tr>
+                <td><label>Email : </label></td> <td><input type="text" placeholder="abc@xyz.com" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label>Password : </label></td> <td><input type="text" placeholder="***" name="pswd" required></td>
+            </tr>
+            <tr>
+                <td><label>Confirm Password : </label></td> <td><input type="text" placeholder="***" name="cpswd" required></td>
+            </tr>
+            <tr>
+                <td><label>DOB : </label></td> <td><input type="date" placeholder="Fullname" name="dob" required></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td class="fix">Male</td><td><input type="radio" name="gender" value="male"></td>
+                <td class="fix">Female</td><td><input type="radio" name="gender" value="male"></td>
+                </td>
+            </tr>
+            <tr>
+                    <td><label>Language</label></td>
+                    <td class="fix">English</td><td><input type="checkbox" name="language" value="english"></td>
+                    <td  class="fix">Hindi</td><td><input type="checkbox" name="language" value="english"></td>
+                    </td>
+                </tr>
+            <tr>
+                <td><label >Country :</label></td>
+                <td>
+                <select required>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="England">England</option>
+                        <option value="Germany">Germany</option>
+                        <option value="France">France</option>
+                        <option value="Japan">Japan</option>
+                        <option value="China">China</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Choose profile : </label></td> <td><input type="file" name="profile" required></td>
+            </tr>
+        </table>
+        <button type="submit">Signup</button>
+        <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>

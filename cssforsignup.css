@@ -1,0 +1,34 @@
+body {
+    background-color:peachpuff; 
+}
+.fix {
+    width: 7%;
+}
+.content {
+    max-width: 40%;
+    margin-top: 50px;
+    margin-left: 30%;
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5%;
+  }
+  input {
+      width: 100%; 
+      padding: 6px 0px;
+      margin-bottom: 5px;
+  }
+  label {
+      font-size: 15px;
+      margin-bottom: 5px
+  }
+  button {
+    color: brown;
+    background-color: aquamarine;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5%;
+  }
