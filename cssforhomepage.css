@@ -96,6 +96,7 @@
     border-style: groove;
     border-radius: 1%;
     height: 300px;
+    overflow: auto;
   }
   aside {
     margin-top: 2%;
