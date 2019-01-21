@@ -1,6 +1,6 @@
   body {
-    background-image: url("landscape.jpg");
-    background-color: #b4d814;
+/*     background-image: url("landscape.jpg"); */
+    background-color: powderblue;
   }
   footer {
     width: 100%;
@@ -41,7 +41,7 @@
     padding: 12px;
     text-decoration: none;
     font-family: cursive;
-    font-size: 18px; 
+    font-size: 18px; powderblue
     line-height: 25px;
     border-radius: 4px;
   }
