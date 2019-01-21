@@ -1,0 +1,124 @@
+body {
+    background-color:powderblue; 
+}
+.page-header{
+   padding: 10px;
+   width: 100%;
+   background-color: black;
+}
+
+.nav{
+    display: flex;
+    padding:10px;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: green; */
+    overflow: auto;
+}
+.nav-content{
+    padding: 0 5px;
+    color: white;
+}
+.nav-content a {
+    color: white;
+}
+li{
+    display: inline;
+    padding: 5px;
+
+}
+list{
+    padding-left: 12px;
+}
+li:hover{
+    background-color: rgb(252, 244, 244);
+    color: black;
+    border:0;
+    margin: 0;
+}
+.card{
+width: 90%;
+margin-top: 2%;
+} 
+section {
+    width:90%;
+}
+aside {
+    width: 25%;
+}
+ul{
+    text-decoration: none;
+}
+
+.page-header img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%
+}
+
+
+<aside>
+                    <div class="card">
+                       hello
+                    </div>
+                </aside> .card image{
+    height: auto;
+    width:auto;
+}
+.page-header h2 {
+    text-align: center;
+    color: white;
+}
+.col-sm-6 label {
+    float:center;
+}
+.container {
+    /* max-width: 40%; */
+    margin-top: 50px;
+    /* margin-left: 30%; */
+    background: white;
+    padding: 10px;
+    /* text-align: center; */
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+
+  }
+  .row {
+      margin-bottom: 2%;
+  }
+  .container input{
+      width: auto;
+  }
+  /*   */
+  label {
+      font-size: 15px;
+      margin-bottom: 5px
+  }
+  button {
+    color: brown;
+    background-color: powderblue;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    border-radius: 5%;
+  }
+aside {
+    float: right;
+}
+@media screen  and (max-width: 480px){
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    li{
+        width:100%;
+        border-bottom: 2px solid whitesmoke;
+    }
+    .nav-content{
+        width:100%;
+    }
+  }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign up page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="cssforsignup.css" />
+</head>
+<body>
+    <div class="page-header">
+        <h2 class="text-center">
+            Sign Up
+        </h2>
+    </div>
+        <div class="container">
+        <form action="loginpage.html">
+            <div class="row">
+                <div class="col-sm-6"><label>Name : </label></div> 
+                <div class="col-sm-6"><input type="text" placeholder="Fullname" name="name" required></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 "><label>Address : </label></div> 
+                <div class="col-sm-6"><input type="text" placeholder="Address" name="name" required></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6"><label>Email : </label></div> 
+                <div class="col-sm-6"><input type="email" placeholder="Email" name="email" required></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6"><label>Password : </label></div> 
+                <div class="col-sm-6"><input type="password" placeholder="Password" name="pswd" required></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6"><label>Confirm Password : </label></div> 
+                <div class="col-sm-6"><input type="password" placeholder="Confirm Password" name="cpswd" required></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6"><label>Gender : </label></div>
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-6">male<input type="radio" value="male" name="gender"></div>
+                        <div class="col-sm-6">female<input type="radio" value="female" name="gender"></div>
+                   </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6"><label>Language : </label></div>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-4">Hindi<input type="checkbox" value="hindi"></div>
+                            <div class="col-sm-4">English<input type="checkbox" value="english"></div>
+                            <div class="col-sm-4">Other<input type="checkbox" value="other"></div>
+                       </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <label>Country :</label>
+                </div>
+                <div class="col-sm-6">
+                    <select required>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="England">England</option>
+                        <option value="Germany">Germany</option>
+                        <option value="France">France</option>
+                        <option value="Japan">Japan</option>
+                        <option value="China">China</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-sm-6"><label>Choose File : </label></div> 
+                    <div class="col-sm-6"><input type="file" name="file" required></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6"><button type="submit">Signup</button></div> 
+                <div class="col-sm-6"><button type="reset">Reset</button></div>
+            </div>
+                
+        </form>
+        </div>
+</body>
+</html>
