@@ -5,7 +5,7 @@
   footer {
     width: 100%;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: whitesmoke;
     padding: 20px 10px;
     padding-left: 20px;
     text-align: right;
@@ -13,7 +13,7 @@
   }
  header {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: whitesmoke;
     padding: 20px 10px;
     width: 100%;
     margin-left: -1%;
@@ -41,7 +41,7 @@
     padding: 12px;
     text-decoration: none;
     font-family: cursive;
-    font-size: 18px; powderblue
+    font-size: 18px; 
     line-height: 25px;
     border-radius: 4px;
   }
@@ -92,7 +92,7 @@
   article {
     margin-bottom: 2%;
     display: block;
-    background-color: #f1f1f1;  
+    background-color: white;  
     border-style: groove;
     border-radius: 1%;
     height: 300px;
@@ -105,7 +105,7 @@
   aside ul {
     padding: 25px;
     display: block;
-    background-color: #f1f1f1;  
+    background-color: white;  
     border-style: groove;
     border-radius: 3%;
     overflow: scroll;
